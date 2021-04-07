@@ -1,0 +1,122 @@
+/*---- Adaptation HEADER ---- */
+@media screen and (max-width:450px) {
+    .nav_brand{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand_icon a{
+        font-size: 16px;
+    }
+
+    .nav_brand a{
+        font-size: 12px;
+       
+    }
+
+    .social_icons{
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .social_icons img{
+        width: 18px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+/*-- Adaptation HEADER -- */
+
+/*-- Adaptation HEADER -- */
+@media screen and (max-width:500px) {
+    .nav_brand a{
+        display: none;
+    }
+    .nav_brand label{
+        display: block;
+    }
+    input.toggleMenu:checked ~ a{
+        display: block;
+    }
+}   
+/*-- Adaptation HEADER -- */
+
+/*-- Adaptation BANNER -- */
+@media screen and (max-width:700px)
+{
+.citats {
+    width: 50%;
+}
+}
+/*-- Adaptation BANNER -- */
+
+/*-- Adaptation Catigories -- */
+
+@media screen and (max-width:720px) {
+    .all_catigories a{
+        display: none;
+    }
+    .all_catigories label{
+        display: block;
+    }
+    input.toggleMenu:checked ~ a{
+        display: block;
+    }
+    .wrapper_categories{
+        width: 70%;
+    }
+    .all_catigories a{
+        font-size: 60%;
+    }
+}   
+
+/*-- Adaptation Catigories -- */
+
+/*-- Adaptation Product -- */
+
+@media screen and (max-width:1210px) {
+    .product_line1{
+    flex-direction: column;
+}
+    .product_line2{
+    flex-direction: column;
+}
+    .product_style {
+    justify-content: center;
+    width: auto;
+}
+
+}
+
+/*-- Adaptation Product -- */
+
+/*-- Adaptation Product Page -- */
+
+@media screen and (max-width:1070px){
+    .main_product {
+        flex-direction: column;
+    }
+    .description_text {
+        width: auto;
+        font-size: 20px;
+        color: #848889;
+    }
+    .main_product img{
+        width: 80%;
+        height: 50%;
+    }
+}
+
+
+@media screen and (max-width:1070px){
+    .dop_img {
+        display: flex;
+        flex-direction: column;
+    }
+    .dop_img img {
+        width: 80%;
+        height: 50%;
+    }
+}
